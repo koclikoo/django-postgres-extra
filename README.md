@@ -23,7 +23,7 @@ With seamless we mean that any features we add will work truly seamlessly. You s
 
 ---
 
-:warning: **This README is for v2. See the `v1` branch for v1.x.**
+:warning: the wheel can be downloaded from menu Actions > Run > Artefact
 
 ---
 
