@@ -1,13 +1,17 @@
-import distutils.cmd
 import os
 import subprocess
 
 from setuptools import find_packages, setup
 
+try:
+    from distutils.cmd import Command as Command
+except ImportError:
+    from setuptools import Command as Command
+
 exec(open("psqlextra/_version.py").read())
 
 
-class BaseCommand(distutils.cmd.Command):
+class BaseCommand(Command):
     user_options = []
 
     def initialize_options(self):
@@ -63,6 +67,7 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
         "Topic :: Internet :: WWW/HTTP",
         "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
     ],
@@ -97,7 +102,7 @@ setup(
             "docformatter==1.4",
             "mypy==1.2.0; python_version > '3.6'",
             "mypy==0.971; python_version <= '3.6'",
-            "django-stubs==4.2.7; python_version > '3.6'",
+            "django-stubs==1.16.0; python_version > '3.6'",
             "django-stubs==1.9.0; python_version <= '3.6'",
             "typing-extensions==4.5.0; python_version > '3.6'",
             "typing-extensions==4.1.0; python_version <= '3.6'",
