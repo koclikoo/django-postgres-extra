@@ -2,20 +2,20 @@
   <img width="400" src="https://i.imgur.com/79S6OVM.png" alt="django-postgres-extra">
 </h1>
   
-|  |  |  |
-|--------------------|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| :white_check_mark: | **Tests** | [![CircleCI](https://circleci.com/gh/SectorLabs/django-postgres-extra/tree/master.svg?style=svg)](https://circleci.com/gh/SectorLabs/django-postgres-extra/tree/master) |
-| :memo: | **License** | [![License](https://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org) |
-| :package: | **PyPi** | [![PyPi](https://badge.fury.io/py/django-postgres-extra.svg)](https://pypi.python.org/pypi/django-postgres-extra) |
+|  |  |                                                                                                                                                                                                 |
+|--------------------|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| :white_check_mark: | **Tests** | [![CircleCI](https://circleci.com/gh/SectorLabs/django-postgres-extra/tree/master.svg?style=svg)](https://circleci.com/gh/SectorLabs/django-postgres-extra/tree/master)                         |
+| :memo: | **License** | [![License](https://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)                                                                                                         |
+| :package: | **PyPi** | [![PyPi](https://badge.fury.io/py/django-postgres-extra.svg)](https://pypi.python.org/pypi/django-postgres-extra)                                                                               |
 | :four_leaf_clover: | **Code coverage** | [![Coverage Status](https://coveralls.io/repos/github/SectorLabs/django-postgres-extra/badge.svg?branch=coveralls)](https://coveralls.io/github/SectorLabs/django-postgres-extra?branch=master) |
-| <img src="https://cdn.iconscout.com/icon/free/png-256/django-1-282754.png" width="22px" height="22px" align="center" /> | **Django Versions** | 2.0, 2.1, 2.2, 3.0, 3.1, 3.2, 4.0, 4.1, 4.2, 5.0 |
-| <img src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png" width="22px" height="22px" align="center" /> | **Python Versions** | 3.6, 3.7, 3.8, 3.9, 3.10, 3.11 |
-| <img src="https://pbs.twimg.com/profile_images/1152122059/psycopg-100_400x400.png" width="22px" height="22px" align="center" /> | **Psycopg Versions** | 2, 3 |
-| :book: | **Documentation** | [Read The Docs](https://django-postgres-extra.readthedocs.io/en/master/) |
-| :warning: | **Upgrade** | [Upgrade from v1.x](https://django-postgres-extra.readthedocs.io/en/master/major_releases.html#new-features)
-| :checkered_flag: | **Installation** | [Installation Guide](https://django-postgres-extra.readthedocs.io/en/master/installation.html) |
-| :fire: | **Features** | [Features & Documentation](https://django-postgres-extra.readthedocs.io/en/master/index.html#features) |
-| :droplet: | **Future enhancements** | [Potential features](https://github.com/SectorLabs/django-postgres-extra/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement) |
+| <img src="https://cdn.iconscout.com/icon/free/png-256/django-1-282754.png" width="22px" height="22px" align="center" /> | **Django Versions** | 2.0, 2.1, 2.2, 3.0, 3.1, 3.2, 4.0, 4.1, 4.2, 5.0                                                                                                                                                |
+| <img src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png" width="22px" height="22px" align="center" /> | **Python Versions** | 3.6, 3.7, 3.8, 3.9, 3.10, 3.11, 3.12                                                                                                                                                            |
+| <img src="https://pbs.twimg.com/profile_images/1152122059/psycopg-100_400x400.png" width="22px" height="22px" align="center" /> | **Psycopg Versions** | 2, 3                                                                                                                                                                                            |
+| :book: | **Documentation** | [Read The Docs](https://django-postgres-extra.readthedocs.io/en/master/)                                                                                                                        |
+| :warning: | **Upgrade** | [Upgrade from v1.x](https://django-postgres-extra.readthedocs.io/en/master/major_releases.html#new-features)                                                                                    
+| :checkered_flag: | **Installation** | [Installation Guide](https://django-postgres-extra.readthedocs.io/en/master/installation.html)                                                                                                  |
+| :fire: | **Features** | [Features & Documentation](https://django-postgres-extra.readthedocs.io/en/master/index.html#features)                                                                                          |
+| :droplet: | **Future enhancements** | [Potential features](https://github.com/SectorLabs/django-postgres-extra/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement)                                                                     |
 
 `django-postgres-extra` aims to make all of PostgreSQL's awesome features available through the Django ORM. We do this by taking care of all the hassle. As opposed to the many small packages that are available to try to bring a single feature to Django with minimal effort. ``django-postgres-extra`` goes the extra mile, with well tested implementations, seamless migrations and much more.
  
@@ -60,7 +60,7 @@ With seamless we mean that any features we add will work truly seamlessly. You s
 ### Prerequisites
 
 * PostgreSQL 10 or newer.
-* Django 2.0 or newer (including 3.x, 4.x).
+* Django 2.0 or newer (including 3.x, 4.x, 5.x).
 * Python 3.6 or newer.
 
 ### Getting started
